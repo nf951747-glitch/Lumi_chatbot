@@ -19,12 +19,14 @@ This is a small project I built while exploring how rule-based chatbots work bef
 
 ## What it does
 
+Lumi only responds to a fixed set of predefined keywords and phrases — it doesn't understand free-form or open-ended input. This was intentional: the goal of this project was to practice control flow and rule-based logic, not natural language understanding.
+
 - Responds to greetings and common questions (how are you, what's your name, tell me a joke, etc.)
 - Detects exit keywords (bye, exit, quit) and ends the conversation politely
 - Uses exact keyword matching first, then falls back to partial matching
 - Gives a random fallback reply when it doesn't understand the input
 - Runs through a simple web interface built with Flask
-
+  
 ---
 
 ## Tech Stack
